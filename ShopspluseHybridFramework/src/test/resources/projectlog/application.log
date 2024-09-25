@@ -1755,3 +1755,9 @@
 2024-09-25 16:59:05,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2024-09-25 16:59:05,668 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2024-09-25 16:59:05,668 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/yogesh/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-09-25 23:52:39,174  INFO [main] BaseClass:25 - Reading property file for browser
+2024-09-25 23:52:39,206  INFO [main] BaseClass:34 - Browser name: chrome
+2024-09-25 23:58:33,251  INFO [main] BaseClass:25 - Reading property file for browser
+2024-09-25 23:58:33,291  INFO [main] BaseClass:34 - Browser name: chrome
+2024-09-26 00:01:23,748  INFO [main] BaseClass:25 - Reading property file for browser
+2024-09-26 00:01:23,768  INFO [main] BaseClass:34 - Browser name: chrome
