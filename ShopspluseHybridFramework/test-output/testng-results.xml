@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T17:29:15 IST" name="Suite" finished-at="2024-09-24T17:34:53 IST" duration-ms="338163">
+    <groups>
+    </groups>
+    <test started-at="2024-09-24T17:29:15 IST" name="Test" finished-at="2024-09-24T17:34:53 IST" duration-ms="338163">
+      <class name="com.tests.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LogoutTest@11c9af63]" started-at="2024-09-24T17:34:18 IST" name="setup" finished-at="2024-09-24T17:34:52 IST" duration-ms="34000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignOut()[pri:0, instance:com.tests.LogoutTest@11c9af63]" started-at="2024-09-24T17:34:52 IST" name="testSignOut" finished-at="2024-09-24T17:34:53 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut -->
+      </class> <!-- com.tests.LogoutTest -->
+      <class name="com.tests.AccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.AccountTest@1d8bd0de]" started-at="2024-09-24T17:32:24 IST" name="setup" finished-at="2024-09-24T17:32:59 IST" duration-ms="34737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccountTest()[pri:0, instance:com.tests.AccountTest@1d8bd0de]" started-at="2024-09-24T17:32:59 IST" name="createAccountTest" finished-at="2024-09-24T17:33:21 IST" duration-ms="22536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.tests.AccountTest -->
+      <class name="com.tests.MyaccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.MyaccountTest@45ca843]" started-at="2024-09-24T17:33:21 IST" name="setup" finished-at="2024-09-24T17:33:39 IST" duration-ms="18292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MyaccountTest()[pri:0, instance:com.tests.MyaccountTest@45ca843]" started-at="2024-09-24T17:33:39 IST" name="MyaccountTest" finished-at="2024-09-24T17:34:17 IST" duration-ms="37976" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QNBM3V', ip: '192.168.55.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\yogesh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47fb21f157cf0d7d261773e772911b13
+*** Element info: {Using=xpath, value=//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QNBM3V', ip: '192.168.55.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\yogesh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47fb21f157cf0d7d261773e772911b13
+*** Element info: {Using=xpath, value=//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at com.pages.MyaccountPage.clickMyAccountLink(MyaccountPage.java:85)
+at com.tests.MyaccountTest.MyaccountTest(MyaccountTest.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyaccountTest -->
+      </class> <!-- com.tests.MyaccountTest -->
+      <class name="com.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:30:36 IST" name="setup" finished-at="2024-09-24T17:31:13 IST" duration-ms="37470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCompletePurchaseProcess()[pri:1, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:31:13 IST" name="testCompletePurchaseProcess" finished-at="2024-09-24T17:31:35 IST" duration-ms="21411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletePurchaseProcess -->
+        <test-method signature="testWomensClothesLink()[pri:2, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:31:35 IST" name="testWomensClothesLink" finished-at="2024-09-24T17:31:49 IST" duration-ms="14055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomensClothesLink -->
+        <test-method signature="assesorisStationaryLink()[pri:3, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:31:49 IST" name="assesorisStationaryLink" finished-at="2024-09-24T17:32:03 IST" duration-ms="14406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assesorisStationaryLink -->
+        <test-method signature="assesorisHomeLink()[pri:4, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:32:03 IST" name="assesorisHomeLink" finished-at="2024-09-24T17:32:15 IST" duration-ms="11871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assesorisHomeLink -->
+        <test-method signature="artHomeLink()[pri:5, instance:com.tests.HomePageTest@186f8716]" started-at="2024-09-24T17:32:15 IST" name="artHomeLink" finished-at="2024-09-24T17:32:24 IST" duration-ms="8759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- artHomeLink -->
+      </class> <!-- com.tests.HomePageTest -->
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@60015ef5]" started-at="2024-09-24T17:29:15 IST" name="setup" finished-at="2024-09-24T17:30:24 IST" duration-ms="69230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.tests.LoginTest@60015ef5]" started-at="2024-09-24T17:30:24 IST" name="testValidLogin" finished-at="2024-09-24T17:30:35 IST" duration-ms="10557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.LoginTest@60015ef5]" started-at="2024-09-24T17:30:35 IST" name="teardown" finished-at="2024-09-24T17:30:36 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
