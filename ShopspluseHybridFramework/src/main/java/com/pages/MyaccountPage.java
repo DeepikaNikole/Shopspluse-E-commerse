@@ -47,12 +47,17 @@ public class MyaccountPage {
 	    @FindBy(xpath = "//a[@href='https://javabykiran.in/other/shopsplus/module/blockwishlist/lists']")
 	    WebElement wishlistLink;
 	    
-//	    @FindBy(xpath = "//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']")
-//	    WebElement gdprLink;
-	    
 	    @FindBy(xpath = "//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']")
 	    WebElement gdprLink;
+	    
+//	    @FindBy(xpath = "//a[@href='https://javabykiran.in/other/shopsplus/module/psgdpr/gdpr']")
+//	    WebElement gdprLink;
 
+//	    @FindBy(xpath = "//a[contains(@href, 'psgdpr/gdpr')]")
+//	    WebElement gdprLink;
+//	    
+//	    @FindBy(id = "psgdpr-link")
+//	    WebElement gdprLink;
 	    
 	    @FindBy(xpath = "//a[@href='//javabykiran.in/other/shopsplus/module/ps_emailalerts/account']")
 	     WebElement emailAlertsLink;
@@ -81,11 +86,11 @@ public class MyaccountPage {
 	        wishlistLink.click();
 	        
 	        
-	        
-	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", gdprLink);
-
-	        DriverUtils.waitForElement(driver, gdprLink);
-	        gdprLink.click();
+//	        
+//	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", gdprLink);
+//
+//	        DriverUtils.waitForElement(driver, gdprLink);
+//	        gdprLink.click();
 	        
 	        
 	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", emailAlertsLink);
